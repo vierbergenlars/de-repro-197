@@ -1,0 +1,18 @@
+plugins {
+    id "java"
+    id "osgi"
+    id "eu.xenit.alfresco" version "0.1.4"
+}
+
+dependencies {
+    alfrescoProvided "org.alfresco:alfresco-repository:5.1.1"
+    alfrescoProvided "eu.xenit.de:annotations:1.7.6"
+}
+
+jar {
+    manifest {
+        instruction "Alfresco-Dynamic-Extension", "true"
+        instruction 'Import-Package', '*'
+        instruction 'DynamicImport-Package', '*'
+    }
+}

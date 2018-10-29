@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<model name="xyzwf:xyzWorkflowModel" xmlns="http://www.alfresco.org/model/dictionary/1.0">
+
+	<imports>
+		<!-- Import Alfresco Dictionary Definitions -->
+		<import uri="http://www.alfresco.org/model/dictionary/1.0" prefix="d" />
+		<!-- Import Alfresco Content Domain Model Definitions -->
+		<import uri="http://www.alfresco.org/model/content/1.0" prefix="cm" />
+		<import uri="http://www.alfresco.org/model/bpm/1.0" prefix="bpm" />
+		<import uri="http://www.xyz.com/model/xyz/1.0" prefix="xyz" />
+	</imports>
+
+	<namespaces>
+		<namespace uri="http://www.xyz.com/model/xyzworkflow/1.0" prefix="xyzwf" />
+	</namespaces>
+
+</model>
